@@ -22,6 +22,17 @@ void input() {                                                  // Prosedure inp
 		}
 	}
 	cout << endl;                                                // Membuat jarak per baris program
+	cout << "====================" << endl;                      // Membuat tampilan susunan data element Array
+	cout << "Masukan Elemen Array" << endl;
+	cout << "====================" << endl;
+
+	for (int i = 0; i < n; i++)                                  // Mengunakan perulangan for untuk menyimpan data pada Array
+	{
+		cout << "Data ke-" << (1 + i) << " :";                   // Memasukkan atau menginputkan nilai data n
+		cin >> arr[i];                                           // Menyimpan nilai data n kedalam Arrayw arr
+	}
+}
+
 
 int main()
 {
