@@ -74,8 +74,11 @@ void display() {                                                 // Prosedure Di
 
 
 
+
 int main()
 {
-
+	input();                                                    // Memanggil input
+	insertionsort();                                            // Memanggil Insertiosort
+	display();                                                  // display
 }
 
